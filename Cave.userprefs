@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cave/Scripts/BCave.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cave/Scripts/MapGenerator.cs">
     <Files>
-      <File FileName="Assets/Cave/Editor/CaveEditor.cs" Line="38" Column="1" />
-      <File FileName="Assets/Cave/Scripts/CaveGenerator.cs" Line="100" Column="1" />
-      <File FileName="Assets/Cave/Scripts/BCave.cs" Line="17" Column="31" />
+      <File FileName="Assets/Cave/Editor/CaveEditor.cs" Line="35" Column="1" />
+      <File FileName="Assets/Cave/Scripts/BCaveGenerator.cs" Line="17" Column="1" />
+      <File FileName="Assets/Cave/Scripts/MapGenerator.cs" Line="173" Column="14" />
+      <File FileName="Assets/Cave/Scripts/CaveGenerator.cs" Line="91" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

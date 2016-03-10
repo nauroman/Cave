@@ -3,16 +3,16 @@ using System.Collections;
 using UnityEditor;
 using Flashunity.Cave;
 using Flashunity.AtlasUVs;
+using System;
 
-[CustomEditor(typeof(BCave))]
+[CustomEditor(typeof(BCaveGenerator))]
 public class CaveEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        var bCave = (BCave)target;
+        var bCave = (BCaveGenerator)target;
 
         DrawDefaultInspector();
-
 
 //        bCave.percent = EditorGUILayout.IntField("Percent", bCave.percent);
 
@@ -32,7 +32,6 @@ public class CaveEditor : Editor
                 bCave.Save();
             }
         }
-
 
         //          EditorGUILayout.LabelField("Level", myTarget.Level.ToString());
 
