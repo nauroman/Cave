@@ -27,7 +27,7 @@ public class CaveEditor : Editor
 
         if (bCave.facesCount > 0 && bCave.fileName.Length > 0)
         {
-            if (GUILayout.Button("Save"))
+            if (GUILayout.Button("Save Mesh and Prefab"))
             {
                 bCave.Save();
             }

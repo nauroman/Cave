@@ -30,6 +30,9 @@ namespace Flashunity.Cave
         public int tileWidth = 1;
         public int tileHeight = 1;
 
+        public string meshPath = "Assets/Cave/Meshes/";
+        public string prefabPath = "Assets/Cave/Prefabs/";
+
         public string fileName = "cave_";
 
         public bool useFileNamePostfix = true;
@@ -153,8 +156,8 @@ namespace Flashunity.Cave
                 if (useFileNamePostfix)
                     fileName += fileNamePostfix.ToString();
 
-                string meshPath = "Assets/Cave/Meshes/" + fileName + ".mesh";
-                string prefabPath = "Assets/Cave/Prefabs/" + fileName + ".prefab";
+                string meshPath = this.meshPath + fileName + ".mesh";
+                string prefabPath = this.prefabPath + fileName + ".prefab";
 
                 GameObject clone = Instantiate(gameObject);
 
