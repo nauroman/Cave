@@ -1,0 +1,32 @@
+{
+    "frames": [
+        {
+          "name" : "0_s",
+          "x" : 0.0078125,
+          "y" : 0.00390625,
+          "w" : 0.5,
+          "h" : 0.25   
+        }, 
+        {
+          "name" : "1_s",
+          "x" : 0.0078125,
+          "y" : 0.2578125,
+          "w" : 0.5,
+          "h" : 0.25   
+        }, 
+        {
+          "name" : "2_s",
+          "x" : 0.0078125,
+          "y" : 0.51171875,
+          "w" : 0.5,
+          "h" : 0.25   
+        }],
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "description": "Json file for Blocks",
+        "version": "1.0",
+        "image": "albedo.png",
+        "size": {"w":256,"h":512},
+        "smartupdate": "$TexturePacker:SmartUpdate:18ee3ba1dea6878a1689c0d551c0b6f7:1c02a8b19ec549e4cfb4c5d8abfae8ce:f2a6305707428670753d0de93fe620d5$"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "frames": [{% for sprite in allSprites %}
+        {
+          "name" : "{{sprite.trimmedName}}",
+          "x" : {{sprite.frameRectRel.x}},
+          "y" : {{sprite.frameRectRel.y}},
+          "w" : {{sprite.frameRectRel.width}},
+          "h" : {{sprite.frameRectRel.height}}   
+        }{% if not forloop.last %}, {% endif %}{% endfor %}],
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "description": "Json file for Blocks",
+        "version": "1.0",
+        "image": "{{texture.fullName}}",
+        "size": {"w":{{texture.size.width}},"h":{{texture.size.height}}},
+        "smartupdate": "{{smartUpdateKey}}"
+    }
+}
