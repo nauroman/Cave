@@ -1,5 +1,5 @@
 # Cave
-Unity3d cave cellular automaton generator
+Unity3d editor cave cellular automaton generator
 
 Contains:
 
@@ -7,5 +7,8 @@ Contains:
  * **LogCanvas** - Logging library for Unity UI Canvas
  * **Cave** - Cave cellular automaton generator
 
+**Editor:**
  ![Screenshot](http://flashunity.com/assets/cave/1.png)
+ 
+**Editor:**
  ![Screenshot](http://flashunity.com/assets/cave/2.png)
