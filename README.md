@@ -10,5 +10,4 @@ Contains:
 **Editor:**
  ![Screenshot](http://flashunity.com/assets/cave/1.png)
  
-**Editor:**
  ![Screenshot](http://flashunity.com/assets/cave/2.png)
